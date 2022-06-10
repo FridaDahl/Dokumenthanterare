@@ -1,7 +1,11 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Run npm i to install required pacages.
+Run npm i to install required packages.
+
+log in to test app
+username: admin
+password: admin
 
 ## Available Scripts
 
