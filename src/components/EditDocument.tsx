@@ -24,7 +24,7 @@ export const EditDocument = () => {
         .then(response =>{
             let docFromApi = response.data[0]
             setDoc(docFromApi);
-            setContent(response.data[0].content);
+            setContent(decodeURIComponent(response.data[0].content));
             setTitle(response.data[0].title);
             setHtmlContent(decodeURIComponent(response.data[0].content))  
         })
