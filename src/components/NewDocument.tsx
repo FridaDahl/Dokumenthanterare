@@ -34,6 +34,7 @@ export const NewDocument = () => {
     axios.post("http://localhost:3000/document", {user_id:localStorage.getItem("token"),title:title ,content:encodeURIComponent(content)})
     .then(response => {
         console.log(response.data);
+        window.location.replace("/");
     })
 
   }
